@@ -15,7 +15,7 @@ namespace DAL
         public LiquidacionEmbargoRepository()
         {
             liquidaciones = new List<LiquidacionPredio>();  
-        }
+        } 
 
         public void GuardarLiquidacion(LiquidacionPredio liquidacion)
         {
